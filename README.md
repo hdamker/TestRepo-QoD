@@ -1,3 +1,9 @@
+> **TEST REPOSITORY**: This is a test repository for CAMARA release workflow validation.
+> Mirror of [camaraproject/QualityOnDemand](https://github.com/camaraproject/QualityOnDemand).
+> Do not use for production purposes.
+
+---
+
 <a href="https://github.com/camaraproject/QualityOnDemand/commits/" title="Last Commit"><img src="https://img.shields.io/github/last-commit/camaraproject/QualityOnDemand?style=plastic"></a>
 <a href="https://github.com/camaraproject/QualityOnDemand/issues" title="Open Issues"><img src="https://img.shields.io/github/issues/camaraproject/QualityOnDemand?style=plastic"></a>
 <a href="https://github.com/camaraproject/QualityOnDemand/pulls" title="Open Pull Requests"><img src="https://img.shields.io/github/issues-pr/camaraproject/QualityOnDemand?style=plastic"></a>
