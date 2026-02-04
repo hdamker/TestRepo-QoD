@@ -96,17 +96,3 @@ The API definition(s) are based on
 ### Removed
 
 * _To be filled during release review_
-
-<details>
-<summary>Candidate changes (auto-generated)</summary>
-
-## What's Changed
-* Add release-plan.yaml by @hdamker in https://github.com/hdamker/TestRepo-QoD/pull/1
-
-## New Contributors
-* @hdamker made their first contribution in https://github.com/hdamker/TestRepo-QoD/pull/1
-
-**Full Changelog**: https://github.com/hdamker/TestRepo-QoD/compare/r3.2...r4.1
-
-</details>
-
