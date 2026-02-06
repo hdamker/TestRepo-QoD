@@ -33,14 +33,14 @@ Incubating API Repository to evolve and maintain the definitions and documentati
 * Incubating stage since: February 2025
 
 <!-- CAMARA:RELEASE-INFO:START -->
-**Latest release:** [r4.1](https://github.com/hdamker/TestRepo-QoD/releases/tag/r4.1) (pre-release)
+**Latest release:** [r4.2](https://github.com/hdamker/TestRepo-QoD/releases/tag/r4.2) (pre-release)
 
 **Release date:** 2026-02-06
 
 **API versions:**
-- **qos-profiles**: `1.2.0-alpha.1`
-- **qos-provisioning**: `0.4.0-alpha.1`
-- **quality-on-demand**: `1.2.0-alpha.1`
+- **qos-profiles**: `1.2.0-rc.1`
+- **qos-provisioning**: `0.4.0-rc.1`
+- **quality-on-demand**: `1.2.0-rc.1`
 <!-- CAMARA:RELEASE-INFO:END -->
 
 ## Contributing
