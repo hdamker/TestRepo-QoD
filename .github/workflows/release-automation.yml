@@ -52,7 +52,8 @@ jobs:
        (startsWith(github.event.comment.body, '/create-snapshot') ||
         startsWith(github.event.comment.body, '/discard-snapshot') ||
         startsWith(github.event.comment.body, '/delete-draft') ||
-        startsWith(github.event.comment.body, '/publish-release'))) ||
+        startsWith(github.event.comment.body, '/publish-release') ||
+        startsWith(github.event.comment.body, '/sync-issue'))) ||
       (github.event_name == 'issues' &&
        contains(github.event.issue.labels.*.name, 'release-issue')) ||
       (github.event_name == 'pull_request' &&
