@@ -33,14 +33,37 @@ Incubating API Repository to evolve and maintain the definitions and documentati
 * Incubating stage since: February 2025
 
 <!-- CAMARA:RELEASE-INFO:START -->
-**Latest release:** [r4.1](https://github.com/hdamker/TestRepo-QoD/releases/tag/r4.1) (pre-release)
+<!-- The following section is automatically maintained by the CAMARA project-administration tooling: https://github.com/camaraproject/project-administration -->
 
-**Release date:** 2026-02-06
+## Release Information
 
-**API versions:**
-- **qos-profiles**: `1.2.0-alpha.1`
-- **qos-provisioning**: `0.4.0-alpha.1`
-- **quality-on-demand**: `1.2.0-alpha.1`
+> [!NOTE]
+> Please be aware that the project will have frequent updates to the main branch. There are no compatibility guarantees associated with code in any branch, including main, until a new release is created. For example, changes may be reverted before a release is created. **For best results, use the latest available release**.
+
+* **NEW**: The latest public release is [r3.2](https://github.com/hdamker/TestRepo-QoD/releases/tag/r3.2) (), with the following API versions:
+  * **qos-profiles 1.1.0**
+  [[YAML]](https://github.com/hdamker/TestRepo-QoD/blob/r3.2/code/API_definitions/qos-profiles.yaml)  [[ReDoc]](https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/hdamker/TestRepo-QoD/r3.2/code/API_definitions/qos-profiles.yaml&nocors)  [[Swagger]](https://camaraproject.github.io/swagger-ui/?url=https://raw.githubusercontent.com/hdamker/TestRepo-QoD/r3.2/code/API_definitions/qos-profiles.yaml)
+  * **qos-provisioning 0.3.0**
+  [[YAML]](https://github.com/hdamker/TestRepo-QoD/blob/r3.2/code/API_definitions/qos-provisioning.yaml)  [[ReDoc]](https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/hdamker/TestRepo-QoD/r3.2/code/API_definitions/qos-provisioning.yaml&nocors)  [[Swagger]](https://camaraproject.github.io/swagger-ui/?url=https://raw.githubusercontent.com/hdamker/TestRepo-QoD/r3.2/code/API_definitions/qos-provisioning.yaml)
+  * **quality-on-demand 1.1.0**
+  [[YAML]](https://github.com/hdamker/TestRepo-QoD/blob/r3.2/code/API_definitions/quality-on-demand.yaml)  [[ReDoc]](https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/hdamker/TestRepo-QoD/r3.2/code/API_definitions/quality-on-demand.yaml&nocors)  [[Swagger]](https://camaraproject.github.io/swagger-ui/?url=https://raw.githubusercontent.com/hdamker/TestRepo-QoD/r3.2/code/API_definitions/quality-on-demand.yaml)
+
+* The latest public release is always available here: https://github.com/camaraproject/TestRepo-QoD/releases/latest
+* Other releases of this repository are available in https://github.com/camaraproject/TestRepo-QoD/releases
+* For changes see [CHANGELOG.md](https://github.com/camaraproject/TestRepo-QoD/blob/main/CHANGELOG.md)
+
+### Upcoming Release Preview
+
+* Pre-release: [r4.2](https://github.com/hdamker/TestRepo-QoD/releases/tag/r4.2) (release candidate)
+  * **qos-profiles 1.2.0-rc.1**
+  [[YAML]](https://github.com/hdamker/TestRepo-QoD/blob/r4.2/code/API_definitions/qos-profiles.yaml)  [[ReDoc]](https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/hdamker/TestRepo-QoD/r4.2/code/API_definitions/qos-profiles.yaml&nocors)  [[Swagger]](https://camaraproject.github.io/swagger-ui/?url=https://raw.githubusercontent.com/hdamker/TestRepo-QoD/r4.2/code/API_definitions/qos-profiles.yaml)
+  * **qos-provisioning 0.4.0-rc.1**
+  [[YAML]](https://github.com/hdamker/TestRepo-QoD/blob/r4.2/code/API_definitions/qos-provisioning.yaml)  [[ReDoc]](https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/hdamker/TestRepo-QoD/r4.2/code/API_definitions/qos-provisioning.yaml&nocors)  [[Swagger]](https://camaraproject.github.io/swagger-ui/?url=https://raw.githubusercontent.com/hdamker/TestRepo-QoD/r4.2/code/API_definitions/qos-provisioning.yaml)
+  * **quality-on-demand 1.2.0-rc.1**
+  [[YAML]](https://github.com/hdamker/TestRepo-QoD/blob/r4.2/code/API_definitions/quality-on-demand.yaml)  [[ReDoc]](https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/hdamker/TestRepo-QoD/r4.2/code/API_definitions/quality-on-demand.yaml&nocors)  [[Swagger]](https://camaraproject.github.io/swagger-ui/?url=https://raw.githubusercontent.com/hdamker/TestRepo-QoD/r4.2/code/API_definitions/quality-on-demand.yaml)
+
+
+_The above section is automatically synchronized by CAMARA project-administration._
 <!-- CAMARA:RELEASE-INFO:END -->
 
 ## Contributing
