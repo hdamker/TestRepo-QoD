@@ -1,0 +1,19 @@
+repository:
+  repository_name: ''
+  release_tag: r4.3
+  release_type: public-release
+  release_date: null
+  src_commit_sha: 3483d068c57be384134d7a8bd42c6868b77470c9
+apis:
+- api_name: qos-profiles
+  api_version: 1.2.0
+  api_title: QoS Profiles
+- api_name: qos-provisioning
+  api_version: 0.4.0
+  api_title: QoS Provisioning
+- api_name: quality-on-demand
+  api_version: 1.2.0
+  api_title: Quality-On-Demand
+dependencies:
+  commonalities_release: r3.4
+  identity_consent_management_release: r3.3
