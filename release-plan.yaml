@@ -19,7 +19,7 @@ repository:
 
   # Release type being prepared (must be set before release can be triggered)
   # Options: none | pre-release-alpha | pre-release-rc | public-release | maintenance-release
-  target_release_type: pre-release-alpha
+  target_release_type: pre-release-rc
 
 # Dependencies on Commonalities and ICM releases
 # Update per ReleaseManagement requirements for each release cycle
@@ -33,7 +33,7 @@ dependencies:
 apis:
   - api_name: qos-profiles
     target_api_version: 1.4.0
-    target_api_status: alpha
+    target_api_status: rc
     # IMP-012 test: r4.1 has 1.2.0-alpha.1 (v1alpha1) → must get .2
     main_contacts:
       - hdamker
@@ -42,7 +42,7 @@ apis:
       - jlurien
   - api_name: qos-provisioning
     target_api_version: 0.6.0
-    target_api_status: alpha
+    target_api_status: rc
     # IMP-012 test: r4.1 has 0.4.0-alpha.1 (v0.4alpha1) → different minor, gets .1
     main_contacts:
       - hdamker
@@ -51,7 +51,7 @@ apis:
       - jlurien
   - api_name: quality-on-demand
     target_api_version: 2.1.0
-    target_api_status: alpha
+    target_api_status: rc
     # IMP-012 test: r6.1 has 2.0.0-alpha.1 (v2alpha1) → must get .2
     main_contacts:
       - hdamker
