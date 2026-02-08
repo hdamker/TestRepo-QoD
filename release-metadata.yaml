@@ -1,0 +1,19 @@
+repository:
+  repository_name: TestRepo-QoD
+  release_tag: r6.1
+  release_type: pre-release-alpha
+  release_date: null
+  src_commit_sha: 1480e4815631a3014ed1885230b21305e12bd726
+apis:
+- api_name: qos-profiles
+  api_version: 1.3.0
+  api_title: QoS Profiles
+- api_name: qos-provisioning
+  api_version: 0.5.0
+  api_title: QoS Provisioning
+- api_name: quality-on-demand
+  api_version: 2.0.0-alpha.1
+  api_title: Quality-On-Demand
+dependencies:
+  commonalities_release: r4.1
+  identity_consent_management_release: r4.1
