@@ -8,7 +8,7 @@
 repository:
   # How this repository participates in CAMARA releases
   # Options: none | independent | meta-release
-  release_track: none
+  release_track: independent
   # Meta-release participation (update for next cycle when planning)
   # meta_release: Spring27
 
