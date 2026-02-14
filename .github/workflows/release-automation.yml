@@ -77,6 +77,5 @@ jobs:
        github.event.pull_request.merged == true &&
        startsWith(github.event.pull_request.base.ref, 'release-snapshot/'))
 
-    # For testing: use hdamker fork; production will use camaraproject/tooling
-    uses: hdamker/tooling/.github/workflows/release-automation-reusable.yml@release-automation-mvp
+    uses: camaraproject/tooling/.github/workflows/release-automation-reusable.yml@release-automation
     secrets: inherit
