@@ -57,4 +57,4 @@ apis:
       - jlurien
   - api_name: not-existing-api
     target_api_version: 0.1.0
-    target_api_status: rc
+    target_api_status: draft
