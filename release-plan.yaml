@@ -10,7 +10,7 @@ repository:
   # Options: none | independent | meta-release
   release_track: independent
   # Meta-release participation (update for next cycle when planning)
-  # meta_release: Spring27
+  # meta_release: Spring26
 
   # Current/last release tag — update for your next release:
   # - New release cycle (increment first number, reset second to 1)
@@ -24,8 +24,8 @@ repository:
 # Dependencies on Commonalities and ICM releases
 # Update per ReleaseManagement requirements for each release cycle
 dependencies:
-  commonalities_release: r5.1
-  identity_consent_management_release: r5.1
+  commonalities_release: r4.1
+  identity_consent_management_release: r4.1
 
 # APIs in this repository
 # - api_name: kebab-case identifier (must be filename in code/API_definitions/)
