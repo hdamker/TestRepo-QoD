@@ -77,5 +77,5 @@ jobs:
        github.event.pull_request.merged == true &&
        startsWith(github.event.pull_request.base.ref, 'release-snapshot/'))
 
-    uses: hdamker/tooling/.github/workflows/release-automation-reusable.yml@api-readiness-checklist
+    uses: hdamker/tooling/.github/workflows/release-automation-reusable.yml@fix/auto-strip-candidate-changes
     secrets: inherit
