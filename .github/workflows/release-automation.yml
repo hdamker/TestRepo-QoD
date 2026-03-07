@@ -54,6 +54,7 @@ permissions:
   contents: write
   issues: write
   pull-requests: write
+  id-token: write
 
 jobs:
   release-automation:
@@ -77,5 +78,5 @@ jobs:
        github.event.pull_request.merged == true &&
        startsWith(github.event.pull_request.base.ref, 'release-snapshot/'))
 
-    uses: hdamker/tooling/.github/workflows/release-automation-reusable.yml@pre-snapshot-wip-check
+    uses: hdamker/tooling/.github/workflows/release-automation-reusable.yml@release-automation-oidc-ref
     secrets: inherit
