@@ -78,5 +78,5 @@ jobs:
        github.event.pull_request.merged == true &&
        startsWith(github.event.pull_request.base.ref, 'release-snapshot/'))
 
-    uses: hdamker/tooling/.github/workflows/release-automation-reusable.yml@release-automation-oidc-ref
+    uses: hdamker/tooling/.github/workflows/release-automation-reusable.yml@fix/release-issue-sync-after-draft
     secrets: inherit
