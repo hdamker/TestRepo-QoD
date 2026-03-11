@@ -37,10 +37,11 @@ permissions:
   contents: write
   issues: write
   statuses: write
+  id-token: write
 
 jobs:
   pr_validation:
-    uses: camaraproject/tooling/.github/workflows/pr_validation.yml@v0
+    uses: hdamker/tooling/.github/workflows/pr_validation.yml@fix/pr-validation-ref-consistency-120
     secrets: inherit
 # Tools configuration from the tooling repository subfolder of /linting/config/ indicated by `configurations` variable
 # If needed, you can specify a configuration from another subfolder of camaraproject/tooling/linting/config/ (uncomment below)
