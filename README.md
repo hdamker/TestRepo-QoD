@@ -1,6 +1,7 @@
 > **TEST REPOSITORY**: This is a test repository for CAMARA release workflow validation.
 > Mirror of [camaraproject/QualityOnDemand](https://github.com/camaraproject/QualityOnDemand).
 > Do not use for production purposes.
+> Validation test note: branch-based `pr_validation` workflow check for tooling issue #120.
 
 ---
 
