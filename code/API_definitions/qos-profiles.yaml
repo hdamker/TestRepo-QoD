@@ -1,4 +1,5 @@
 openapi: 3.0.3
+# Test: pr_validation result step without release-plan.yaml changes (tooling#127)
 info:
   title: QoS Profiles
   description: |
