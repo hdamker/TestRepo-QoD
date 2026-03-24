@@ -78,5 +78,5 @@ jobs:
        github.event.pull_request.merged == true &&
        startsWith(github.event.pull_request.base.ref, 'release-snapshot/'))
 
-    uses: hdamker/tooling/.github/workflows/release-automation-reusable.yml@fix/readme-sync-from-tag
+    uses: hdamker/tooling/.github/workflows/release-automation-reusable.yml@fix/sync-issue-label-race
     secrets: inherit
