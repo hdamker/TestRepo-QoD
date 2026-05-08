@@ -24,7 +24,7 @@ repository:
 # Dependencies on Commonalities and ICM releases
 # Update per ReleaseManagement requirements for each release cycle
 dependencies:
-  commonalities_release: r4.1
+  commonalities_release: r3.4
   identity_consent_management_release: r4.1
 
 # APIs in this repository

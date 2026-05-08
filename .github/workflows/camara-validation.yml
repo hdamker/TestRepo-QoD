@@ -27,5 +27,5 @@ permissions:
 
 jobs:
   validation:
-    uses: hdamker/tooling/.github/workflows/validation.yml@validation-framework
+    uses: hdamker/tooling/.github/workflows/validation.yml@fix/consolidate-into-derive-state
     secrets: inherit
