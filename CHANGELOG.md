@@ -1,5 +1,17 @@
 # Changelog QualityOnDemand
 
+<!-- TOC:START -->
+## Table of Contents
+- **[r3.2.1](#r321)**
+- **[r3.2](#r32)**
+- [r3.1](#r31)
+- **[r2.2](#r22)**
+- [r2.1](#r21)
+- [r1.3](#r13)
+- **[r1.2](#r12)**
+- [r1.1](#r11)
+<!-- TOC:END -->
+
 ## Table of Contents
 - **[r3.2](#r32) (Fall25 public release)**
 - [r3.1](#r31)
@@ -26,6 +38,96 @@ The below sections record the changes for each API version in each release as fo
 * for the first release-candidate, all changes since the last public release
 * for subsequent release-candidate(s), only the delta to the previous release-candidate
 * for a public release, the consolidated changes since the previous public release
+
+# r3.2.1
+
+## Release Notes
+
+This maintenance release contains the definition and documentation of
+* qos-profiles 1.1.1
+* qos-provisioning 0.3.1-alpha.1
+* quality-on-demand 1.1.1
+
+The API definition(s) are based on
+* Commonalities 0.6.1
+* Identity and Consent Management 0.5.0-rc.1
+
+## qos-profiles 1.1.1
+
+**qos-profiles 1.1.1 is ...**
+
+- API definition **with inline documentation**:
+  - [View it on ReDoc](https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/camaraproject/TestRepo-QoD/r3.2.1/code/API_definitions/qos-profiles.yaml&nocors)
+  - [View it on Swagger Editor](https://camaraproject.github.io/swagger-ui/?url=https://raw.githubusercontent.com/camaraproject/TestRepo-QoD/r3.2.1/code/API_definitions/qos-profiles.yaml)
+  - OpenAPI [YAML spec file](https://github.com/camaraproject/TestRepo-QoD/blob/r3.2.1/code/API_definitions/qos-profiles.yaml)
+
+### Added
+
+* _To be filled during release review_
+
+### Changed
+
+* _To be filled during release review_
+
+### Fixed
+
+* _To be filled during release review_
+
+### Removed
+
+* _To be filled during release review_
+
+## qos-provisioning 0.3.1-alpha.1
+
+**qos-provisioning 0.3.1-alpha.1 is ...**
+
+- API definition **with inline documentation**:
+  - [View it on ReDoc](https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/camaraproject/TestRepo-QoD/r3.2.1/code/API_definitions/qos-provisioning.yaml&nocors)
+  - [View it on Swagger Editor](https://camaraproject.github.io/swagger-ui/?url=https://raw.githubusercontent.com/camaraproject/TestRepo-QoD/r3.2.1/code/API_definitions/qos-provisioning.yaml)
+  - OpenAPI [YAML spec file](https://github.com/camaraproject/TestRepo-QoD/blob/r3.2.1/code/API_definitions/qos-provisioning.yaml)
+
+### Added
+
+* _To be filled during release review_
+
+### Changed
+
+* _To be filled during release review_
+
+### Fixed
+
+* _To be filled during release review_
+
+### Removed
+
+* _To be filled during release review_
+
+## quality-on-demand 1.1.1
+
+**quality-on-demand 1.1.1 is ...**
+
+- API definition **with inline documentation**:
+  - [View it on ReDoc](https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/camaraproject/TestRepo-QoD/r3.2.1/code/API_definitions/quality-on-demand.yaml&nocors)
+  - [View it on Swagger Editor](https://camaraproject.github.io/swagger-ui/?url=https://raw.githubusercontent.com/camaraproject/TestRepo-QoD/r3.2.1/code/API_definitions/quality-on-demand.yaml)
+  - OpenAPI [YAML spec file](https://github.com/camaraproject/TestRepo-QoD/blob/r3.2.1/code/API_definitions/quality-on-demand.yaml)
+
+### Added
+
+* _To be filled during release review_
+
+### Changed
+
+* _To be filled during release review_
+
+### Fixed
+
+* _To be filled during release review_
+
+### Removed
+
+* _To be filled during release review_
+
+**Full Changelog**: https://github.com/hdamker/TestRepo-QoD/compare/r3.2...r3.2.1
 
 # r3.2
 ## Release Notes
@@ -366,7 +468,6 @@ qos-profiles 1.0.0 provides the QoS Profiles endpoints from v0.11.1, and is alig
 
 **Full Changelog**: https://github.com/camaraproject/QualityOnDemand/compare/r1.3...r2.2
 
-
 # r2.1
 ## Release Notes
 
@@ -693,7 +794,6 @@ Version 0.11.0 provides the QoS Sessions endpoints from v0.10.1, adds one endpoi
 * Added x-correlator header to requests and responses by @jlurien in https://github.com/camaraproject/QualityOnDemand/pull/283
 * Added security scheme and scopes for each endpoint / method by @eric-murray in https://github.com/camaraproject/QualityOnDemand/pull/295
 
-
 ### Changed
 * Made + prefix mandatory for phoneNumber by @jlurien in https://github.com/camaraproject/QualityOnDemand/pull/301
 * Clarification of concepts and properties related to the management of session duration and session extension by @jlurien in https://github.com/camaraproject/QualityOnDemand/pull/296
@@ -881,7 +981,6 @@ qos-profiles 0.11.0 provides the QoS Profiles endpoints from v0.10.1, changed th
 * Aligned event notification with CloudEvent spec which will allow API consumers and implementators to use standard libraries and tools which are available to handle CloudEvents (https://cloudevents.io/)
 * Added a new operation `/sessions/{sessionId}/extend` which allows to extend the duration of an active session 
 
-
 ### Added
 
 * Added new endpoint to extend duration of an active session by @emil-cheung in https://github.com/camaraproject/QualityOnDemand/pull/216
@@ -909,7 +1008,6 @@ qos-profiles 0.11.0 provides the QoS Profiles endpoints from v0.10.1, changed th
 * @rartych made their first contribution in https://github.com/camaraproject/QualityOnDemand/pull/227
 
 **Full Changelog**: https://github.com/camaraproject/QualityOnDemand/compare/v0.9.0...v0.10.0-rc
-
 
 # v0.9.0
 
@@ -976,7 +1074,6 @@ qos-profiles 0.11.0 provides the QoS Profiles endpoints from v0.10.1, changed th
 * Added new methods to get service provider defined QoS Profile by @RandyLevensalor in https://github.com/camaraproject/QualityOnDemand/pull/138
 * Scopes specified and OAuth2 authorizationCode flow added as security mechanism, for operations dealing with QoD sessions by @jlurien in https://github.com/camaraproject/QualityOnDemand/pull/163
 * Added new model `EventQosStatus` by @jlurien in https://github.com/camaraproject/QualityOnDemand/pull/167
-
 
 ### Changed
 
