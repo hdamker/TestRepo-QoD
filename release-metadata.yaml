@@ -2,7 +2,7 @@ repository:
   repository_name: TestRepo-QoD
   release_tag: r4.1
   release_type: pre-release-alpha
-  release_date: null
+  release_date: '2026-05-08T22:17:02Z'
   src_commit_sha: 2528126fcbacefab822764c0f069b33ccdf523a0
 apis:
 - api_name: qos-profiles
