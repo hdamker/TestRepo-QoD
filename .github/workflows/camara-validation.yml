@@ -27,5 +27,5 @@ permissions:
 
 jobs:
   validation:
-    uses: hdamker/tooling/.github/workflows/validation.yml@fix/consolidate-into-derive-state
+    uses: hdamker/tooling/.github/workflows/validation.yml@fix/post-release-sync-flat-mode
     secrets: inherit
