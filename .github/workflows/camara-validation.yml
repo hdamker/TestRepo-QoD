@@ -1,7 +1,10 @@
-# CAMARA Validation Framework — Caller Workflow (test deployment)
+# CAMARA Validation Framework — Caller Workflow
 #
-# Points to hdamker/tooling@validation-framework for pre-RC testing.
-# Production callers will use camaraproject/tooling@v1-rc.
+# Installed in API repositories by the CAMARA onboarding campaign
+# (camaraproject/project-administration). No modification needed;
+# all configuration is centralized in camaraproject/tooling.
+#
+# Replaces the legacy pr_validation_caller.yml (v0 validation).
 
 name: CAMARA Validation
 
@@ -27,5 +30,5 @@ permissions:
 
 jobs:
   validation:
-    uses: hdamker/tooling/.github/workflows/validation.yml@fix/post-release-sync-flat-mode
+    uses: hdamker/tooling/.github/workflows/validation.yml@fix/sync-common-idempotent-pr
     secrets: inherit
