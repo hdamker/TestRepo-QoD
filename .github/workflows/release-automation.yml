@@ -78,5 +78,5 @@ jobs:
        github.event.pull_request.merged == true &&
        startsWith(github.event.pull_request.base.ref, 'release-snapshot/'))
 
-    uses: hdamker/tooling/.github/workflows/release-automation-reusable.yml@fix/post-release-sync-flat-mode
+    uses: hdamker/tooling/.github/workflows/release-automation-reusable.yml@fix/sync-common-idempotent-pr
     secrets: inherit
