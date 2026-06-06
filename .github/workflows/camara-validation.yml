@@ -30,5 +30,10 @@ permissions:
 
 jobs:
   validation:
-    uses: hdamker/tooling/.github/workflows/validation.yml@fix/sync-common-idempotent-pr
+    uses: hdamker/tooling/.github/workflows/validation.yml@fix/p031-canonical-source-fallback
+    # Fork test of tooling PR #317 (release-review canonical fallback).
+    # Pin engine + shared-actions to the PR head SHA; the override hardcodes
+    # camaraproject/tooling and the SHA is reachable via the open PR ref.
+    with:
+      tooling_ref_override: 1410e888b41d1d65db697f2ca8ba8f6782169019
     secrets: inherit
