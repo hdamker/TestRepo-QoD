@@ -15,11 +15,11 @@ repository:
   # Current/last release tag — update for your next release:
   # - New release cycle (increment first number, reset second to 1)
   # - Progression in same cycle (increment second number)
-  target_release_tag: r4.2
+  target_release_tag: r4.99
 
   # Release type being prepared (must be set before release can be triggered)
   # Options: none | pre-release-alpha | pre-release-rc | public-release | maintenance-release
-  target_release_type: pre-release-alpha
+  target_release_type: public-release
 
 # Dependencies on Commonalities and ICM releases
 # Update per ReleaseManagement requirements for each release cycle
@@ -33,7 +33,7 @@ dependencies:
 apis:
   - api_name: qos-profiles
     target_api_version: 1.2.0
-    target_api_status: alpha
+    target_api_status: public
     main_contacts:
       - hdamker
       - eric-murray
@@ -41,7 +41,7 @@ apis:
       - jlurien
   - api_name: qos-provisioning
     target_api_version: 0.4.0
-    target_api_status: alpha
+    target_api_status: public
     main_contacts:
       - hdamker
       - eric-murray
@@ -49,7 +49,7 @@ apis:
       - jlurien
   - api_name: quality-on-demand
     target_api_version: 1.2.0
-    target_api_status: alpha
+    target_api_status: public
     main_contacts:
       - hdamker
       - eric-murray
