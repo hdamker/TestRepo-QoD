@@ -88,10 +88,10 @@ jobs:
        github.event.pull_request.merged == true &&
        startsWith(github.event.pull_request.base.ref, 'release-snapshot/'))
 
-    uses: hdamker/tooling/.github/workflows/release-automation-reusable.yml@fix/p031-canonical-source-fallback
-    # Fork test of tooling PR #317 (release-review canonical fallback).
+    uses: hdamker/tooling/.github/workflows/release-automation-reusable.yml@feat/auto-comparison-baseline-rm568
+    # Fork test of tooling PR #336 (release-review comparison baselines).
     # Pin engine + shared-actions to the PR head SHA; the override hardcodes
     # camaraproject/tooling and the SHA is reachable via the open PR ref.
     with:
-      tooling_ref_override: 1410e888b41d1d65db697f2ca8ba8f6782169019
+      tooling_ref_override: 2f7de1b02727d6d653e356ebdbc811a458293fd3
     secrets: inherit
