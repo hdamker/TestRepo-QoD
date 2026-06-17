@@ -39,6 +39,14 @@ apis:
       - eric-murray
       - RandyLevensalor
       - jlurien
+  - api_name: qos-profiles
+    target_api_version: 1.2.0
+    target_api_status: rc
+    main_contacts:
+      - hdamker
+      - eric-murray
+      - RandyLevensalor
+      - jlurien
   - api_name: qos-provisioning
     target_api_version: 0.4.0
     target_api_status: rc
