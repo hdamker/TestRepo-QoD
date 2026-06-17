@@ -88,7 +88,7 @@ jobs:
        github.event.pull_request.merged == true &&
        startsWith(github.event.pull_request.base.ref, 'release-snapshot/'))
 
-    uses: hdamker/tooling/.github/workflows/validation.yml@feat/release-plan-published-history-validation
+    uses: hdamker/tooling/.github/workflows/release-automation-reusable.yml@feat/release-plan-published-history-validation
     # Fork test of release-plan published-history validation. Do not set tooling_ref_override here:
     # the override path checks out camaraproject/tooling, while the OIDC path
     # resolves the tooling checkout to the called workflow SHA in hdamker/tooling.
