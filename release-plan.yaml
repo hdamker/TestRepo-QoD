@@ -19,7 +19,7 @@ repository:
 
   # Release type being prepared (must be set before release can be triggered)
   # Options: none | pre-release-alpha | pre-release-rc | public-release | maintenance-release
-  target_release_type: pre-release-rc
+  target_release_type: public-release
 
 # Dependencies on Commonalities and ICM releases
 # Update per ReleaseManagement requirements for each release cycle
@@ -32,24 +32,24 @@ dependencies:
 # - target_api_status: draft (no file yet) | alpha | rc | public
 apis:
   - api_name: qos-profiles
-    target_api_version: 1.2.0
-    target_api_status: rc
+    target_api_version: 1.1.0
+    target_api_status: public
     main_contacts:
       - hdamker
       - eric-murray
       - RandyLevensalor
       - jlurien
   - api_name: qos-provisioning
-    target_api_version: 0.4.0
-    target_api_status: rc
+    target_api_version: 0.3.0
+    target_api_status: public
     main_contacts:
       - hdamker
       - eric-murray
       - RandyLevensalor
       - jlurien
   - api_name: quality-on-demand
-    target_api_version: 1.2.0
-    target_api_status: rc
+    target_api_version: 1.1.0
+    target_api_status: public
     main_contacts:
       - hdamker
       - eric-murray
