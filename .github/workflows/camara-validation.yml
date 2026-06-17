@@ -30,10 +30,8 @@ permissions:
 
 jobs:
   validation:
-    uses: hdamker/tooling/.github/workflows/validation.yml@feat/auto-comparison-baseline-rm568
-    # Fork test of tooling PR #336 (release-review comparison baselines).
-    # Pin engine + shared-actions to the PR head SHA; the override hardcodes
-    # camaraproject/tooling and the SHA is reachable via the open PR ref.
-    with:
-      tooling_ref_override: 2f7de1b02727d6d653e356ebdbc811a458293fd3
+    uses: hdamker/tooling/.github/workflows/validation.yml@fix/gplint-gherkin-lint
+    # Fork test of the GPLint migration. Do not set tooling_ref_override here:
+    # the override path checks out camaraproject/tooling, while the OIDC path
+    # resolves the tooling checkout to the called workflow SHA in hdamker/tooling.
     secrets: inherit
