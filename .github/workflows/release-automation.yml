@@ -88,10 +88,8 @@ jobs:
        github.event.pull_request.merged == true &&
        startsWith(github.event.pull_request.base.ref, 'release-snapshot/'))
 
-    uses: hdamker/tooling/.github/workflows/release-automation-reusable.yml@feat/auto-comparison-baseline-rm568
-    # Fork test of tooling PR #336 (release-review comparison baselines).
-    # Pin engine + shared-actions to the PR head SHA; the override hardcodes
-    # camaraproject/tooling and the SHA is reachable via the open PR ref.
-    with:
-      tooling_ref_override: 2f7de1b02727d6d653e356ebdbc811a458293fd3
+    uses: hdamker/tooling/.github/workflows/validation.yml@feat/release-plan-published-history-validation
+    # Fork test of release-plan published-history validation. Do not set tooling_ref_override here:
+    # the override path checks out camaraproject/tooling, while the OIDC path
+    # resolves the tooling checkout to the called workflow SHA in hdamker/tooling.
     secrets: inherit
