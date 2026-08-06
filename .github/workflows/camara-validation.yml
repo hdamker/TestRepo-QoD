@@ -30,8 +30,8 @@ permissions:
 
 jobs:
   validation:
-    uses: hdamker/tooling/.github/workflows/validation.yml@feat/release-plan-published-history
-    # Fork test of release-plan published-history validation. Do not set tooling_ref_override here:
+    uses: hdamker/tooling/.github/workflows/validation.yml@feat/p040-bundler-renaming-conflict
+    # Fork test of the P-040 bundler component-renaming-conflict check. Do not set tooling_ref_override here:
     # the override path checks out camaraproject/tooling, while the OIDC path
     # resolves the tooling checkout to the called workflow SHA in hdamker/tooling.
     secrets: inherit
