@@ -821,6 +821,17 @@ components:
                 code: TOO_MANY_REQUESTS
                 message: Rate limit reached.
 
+    TestP040ConflictProbe:
+      description: >-
+        Test-only response, not wired to any endpoint. References the common
+        ErrorInfo schema by external $ref, which collides with this file's own
+        local ErrorInfo (different content) — exercises the P-040
+        component-renaming-conflict check. This PR is never merged.
+      content:
+        application/json:
+          schema:
+            $ref: '../common/CAMARA_common.yaml#/components/schemas/ErrorInfo'
+
   examples:
     LIST_OF_QOS_PROFILES:
       summary: A list of QoS profiles with a single entry
