@@ -30,7 +30,7 @@ permissions:
 
 jobs:
   validation:
-    uses: hdamker/tooling/.github/workflows/validation.yml@feat/p040-bundler-renaming-conflict
+    uses: hdamker/tooling/.github/workflows/validation.yml@main
     # Fork test of the P-040 bundler component-renaming-conflict check. Do not set tooling_ref_override here:
     # the override path checks out camaraproject/tooling, while the OIDC path
     # resolves the tooling checkout to the called workflow SHA in hdamker/tooling.
