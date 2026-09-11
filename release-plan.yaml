@@ -40,7 +40,7 @@ apis:
       - RandyLevensalor
       - jlurien
   - api_name: qos-provisioning
-    target_api_version: 0.4.0
+    target_api_version: 1.0.0
     target_api_status: alpha
     main_contacts:
       - hdamker
