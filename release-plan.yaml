@@ -48,7 +48,7 @@ apis:
       - RandyLevensalor
       - jlurien
   - api_name: quality-on-demand
-    target_api_version: 1.1.0
+    target_api_version: 1.2.0
     target_api_status: alpha
     main_contacts:
       - hdamker
